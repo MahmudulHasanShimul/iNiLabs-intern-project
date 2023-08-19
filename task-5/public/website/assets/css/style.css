@@ -1,0 +1,105 @@
+.bg-custom{
+    background-color: rgb(39, 39, 39);
+}
+
+/* ------Footer Section----- */
+.footer-section{
+    background-color: rgb(39, 39, 39);
+    height: 300px;
+    margin-top: 70px;
+}
+
+.follow h5{
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 32px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.follow-icon li {
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 30px;
+    color: #0d9b85;
+}
+
+.follow-icon li a{
+    color: #0d9b85;
+}
+
+.follow-content li{
+   
+    list-style-type: none;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.follow-content ul{
+   
+    display: inline-block;
+}
+
+.footer-contact{
+    margin-top: 30px;
+    margin-left: -50px;
+}
+
+.footer-contact a{
+    margin-left: 30px;
+}
+
+
+.footer-contact li{
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.subscribe{ 
+    margin-left: 30px;
+}
+
+.subscribe h6{ 
+    margin-top: 30px;
+    font-size: 17px;
+    color: #0d9b85;
+}
+
+.subscribe div{ 
+    width: 350px;
+}
+
+.subscribe-bg{ 
+    color: #0d9b85;
+}
+
+.subscribe button{ 
+    background-color:  #10806f;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    width: 350px;
+}
+
+.subscribe button:hover{ 
+    background-color: #0a7363;
+    color: rgb(255, 255, 255);
+}
+
+.card-radius{
+    border-radius: 0px 0px 6px 6px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .footer-section{
+    background-color: rgb(39, 39, 39);
+    height: auto;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    }
+
+    .footer-contact{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+}
